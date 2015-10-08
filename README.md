@@ -1,1 +1,2 @@
-# simulation
+McGill Robotics Simulation
+==========================
