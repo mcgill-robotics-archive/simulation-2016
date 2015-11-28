@@ -1,0 +1,14 @@
+<model name="boat">
+  <link name="body">
+    <!-- ... link info here ... -->
+  </link>
+
+  <plugin name="BuoyancyPlugin" filename="libBuoyancyPlugin.so">
+    <!-- a viscous liquid -->
+    <fluid_density>2000</fluid_density>
+    <link name="body">
+      <center_of_volume>1 2 3</center_of_volume>
+      <volume>50</volume>
+    </link>
+  </plugin>
+</model>
