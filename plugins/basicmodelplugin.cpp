@@ -1,8 +1,11 @@
-#include <gazebo/gazebo.h>
+#include <gazebo/gazebo.hh>
+#include <gazebo/physics/physics.hh>
+#include <gazebo/common/common.hh>
+#include <stdio.h>
 
 namespace gazebo
 {
-	class BasicModelPlugin : public ModelPlugin
+	class ModelPush : public ModelPlugin
 	{
 	public: void Load(physics::ModelPtr _parent, sdf::ElementPtr)
 		{
