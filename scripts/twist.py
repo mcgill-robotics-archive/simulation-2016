@@ -45,8 +45,6 @@ def talker():
     rate = rospy.Rate(1) # 10hz
     while not rospy.is_shutdown():
 	twist = TwistStamped()
-	twist.header =	#finish this 
-	twist.twist = #finish ths 
 	ros = rospy.get_rostime()
         rospy.loginfo(twist)
         pub.publish(twist)
